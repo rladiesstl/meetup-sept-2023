@@ -1,29 +1,23 @@
 ---
 title: "Welcome to R-Ladies St. Louis"
-subtitle: "Clinical Reporting with {gtsummary}"
-date: "October 17, 2022"
+subtitle: "Project Oriented Workflows"
+date: "September 11, 2023"
 format: rladies-revealjs
 self-contained: true
 ---
 
 # Materials for tonight
 
--   All materials can be found here: <https://www.danieldsjoberg.com/clinical-reporting-gtsummary-rmed/>
+-   Slides can be found here: <https://rstats-wtf.github.io/wtf-project-oriented-workflow-slides/#/title-slide>
 
 -   Have R and RStudio installed on your computer
 
--   Most recent release of the `gtsummary` and other packages used in workshop.
-
-```{r}
-#| eval: false
-#| echo: true
-
-instll_pkgs <- c("gtsummary", "tidyverse", "labelled", "usethis", "causaldata", "fs", "skimr", "car")
-
-install.packages(instll_pkgs)
-
-```
-
+-   Install the following packages
+    - `usethis`
+    - `fs`
+    - `here`
+    - `rmarkdown`
+    - `tidyverse`
 
 # What is R-Ladies? {.smaller}
 
@@ -37,9 +31,9 @@ install.packages(instll_pkgs)
 
 Started in September 2017 by Jenine Harris and Chelsea West
 
-![](img/mermaid-diagram.PNG){width="100" fig-align="center"}
+![](img/mermaid-diagram_2023.PNG){width="100" fig-align="center"}
 
-Co-organizers for **`2022-23`** include:
+Co-organizers for **`2023-24`** include:
 
 -   Jenine Harris (Washington University)\
 -   Mary Painter (University of Colorado, Boulder)\
@@ -47,14 +41,11 @@ Co-organizers for **`2022-23`** include:
 -   Crystal Lewis (Freelance Data Management Consultant)\
 -   Laura Rose (Hinge Health)
 
-# 2022 Fall Schedule
+# 2023 Fall Schedule
 
-Each week in October we will be featuring an Introductory R topic during our OctobeR ExtRavaganza
-
--   **`Earlier This Month:`** Wrangling Data in the Tidyverse with **Joscelin Rocha-Hidalgo** (Penn State)
--   **`Last Week:`** Intro to Iteration: for loops and functions with **Merve Ileri Tayar** (Washington University)
--   **`Tonight:`** Clinical reporting with gtsummary with **Daniel Sjoberg** (Memorial Sloan Kettering Cancer Center)
--   **`Thursday Oct.27:`** Intro to Quarto with **Isabella Velasquez** (Posit)
+-   **`Tonight:`** Project Oriented Workflows with **Shannon Pileggi**
+-   **`October:`** Using ChatGPT for Coding TBD
+-   **`November:`** Using the `data.table` package TBD
 
 # Announcements
 
@@ -78,7 +69,7 @@ Visit **rladies.org** to learn about the mission and global work of R-Ladies
 ::: {.column width="80%"}
 -   Connect with R-Ladies St. Louis
     -   Email us at [rladiesstl\@gmail.com](mailto:rladiesstl@gmail.com)
-    -   Follow us on Twitter [\@rladiesstl](https://twitter.com/RLadiesSTL)
+    -   Follow us on LinkedIn [\@r-ladies-st-louis](https://www.linkedin.com/company/r-ladies-st-louis/)
     -   RSVP for future talks on [Meetup](https://www.meetup.com/R-Ladies-St-Louis/)
     -   Check out past recorded talks on our [YouTube Channel](https://www.youtube.com/channel/UCQ7DcXWJm3es06U7lGmBDkw/featured)
 :::
@@ -90,7 +81,7 @@ Visit **rladies.org** to learn about the mission and global work of R-Ladies
 
 # About tonight's speaker
 
-- Daniel is a Senior Biostatistician at Memorial Sloan Kettering Cancer Center in New York City and a DrPH candidate in Biostatistics at Columbia University. 
-- His research interests include adaptive methods in clinical trials, precision medicine, and predictive modeling.
-- He also enjoys R package development, creating many packages available on CRAN, R-Universe, GitHub, and internally at MSKCC. 
-- Daniel is the the winner of the 2021 American Statistical Association (ASA) Innovation in Statistical Programming and Analytics award.
+- Shannon is a Lead Data Scientist at The Prostate Cancer Clinical Trials Consortium
+- She is also a frequent blogger and a member of the R-Ladies Global team
+- She enjoys automating data wrangling and data outputs, and making both data insights and learning new material digestible
+- She is also giving an extended version of this workshop at posit::conf(2023) in Chicago
