@@ -58,7 +58,8 @@ Co-organizers for **`2023-24`** include:
 <br>
 
 ::: announce
-https://rladies.org/code-of-conduct/
+Code of Conduct  
+https://rladies.org/coc/
 :::
 
 # Want to learn more or get involved?
@@ -84,4 +85,4 @@ Visit **rladies.org** to learn about the mission and global work of R-Ladies
 - Shannon is a Lead Data Scientist at The Prostate Cancer Clinical Trials Consortium
 - She is also a frequent blogger and a member of the R-Ladies Global team
 - She enjoys automating data wrangling and data outputs, and making both data insights and learning new material digestible
-- She is also giving an extended version of this workshop at posit::conf(2023) in Chicago
+- She is also giving an extended version of tonight's workshop at posit::conf(2023) in Chicago
